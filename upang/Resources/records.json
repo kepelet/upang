@@ -1,0 +1,57 @@
+{
+    
+    "profile": {
+        "name": "Upang",
+        "age": 27,
+        "email": "johndoe@example.com"
+    },
+    "data": [
+        {
+            "id": 1,
+            "date": "2024-06-01",
+            "description": "Salary",
+            "category": "Income",
+            "amount": 5000000
+        },
+        {
+            "id": 2,
+            "date": "2024-06-03",
+            "description": "Monthly groceries",
+            "category": "Expense",
+            "amount": 1500000
+        },
+        {
+            "id": 3,
+            "date": "2024-06-05",
+            "description": "Electricity bill",
+            "category": "Expense",
+            "amount": 300000
+        },
+        {
+            "id": 4,
+            "date": "2024-06-10",
+            "description": "Freelance project",
+            "category": "Income",
+            "amount": 2000000
+        },
+        {
+            "id": 5,
+            "date": "2024-06-15",
+            "description": "Restaurant dining",
+            "category": "Expense",
+            "amount": 500000
+        },
+        {
+            "id": 6,
+            "date": "2024-06-20",
+            "description": "Transportation",
+            "category": "Expense",
+            "amount": 250000
+        }
+    ],
+    "total": {
+        "total_income": 7000000,
+        "total_expense": 2550000,
+        "net_balance": 4450000
+    }
+}

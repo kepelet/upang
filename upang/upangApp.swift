@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+//import SwiftData
 
 @main
 struct upangApp: App {
@@ -15,3 +16,23 @@ struct upangApp: App {
         }
     }
 }
+/*
+@main
+struct upangApp: App {
+    let container: ModelContainer
+    
+    var body: some Scene {
+        WindowGroup {
+            ContentView(modelContext: container.mainContext)
+        }
+        .modelContainer(container)
+    }
+    
+    init() {
+        do {
+            container = try ModelContainer(for: Record.self)
+        } catch {
+            fatalError("Failed to create ModelContainer for Movie.")
+        }
+    }
+}*/

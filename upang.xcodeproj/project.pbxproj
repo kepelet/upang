@@ -14,6 +14,13 @@
 		DC93F8462C2BF6DD0008116B /* upangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC93F8452C2BF6DD0008116B /* upangTests.swift */; };
 		DC93F8502C2BF6DD0008116B /* upangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC93F84F2C2BF6DD0008116B /* upangUITests.swift */; };
 		DC93F8522C2BF6DD0008116B /* upangUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC93F8512C2BF6DD0008116B /* upangUITestsLaunchTests.swift */; };
+		DC93F8642C2BFCA40008116B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC93F8632C2BFCA40008116B /* Color.swift */; };
+		DC93F8662C2C173E0008116B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC93F8652C2C173E0008116B /* HeaderView.swift */; };
+		DC93F8682C2C179F0008116B /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC93F8672C2C179F0008116B /* HomeScreenView.swift */; };
+		DC93F86B2C2C18F10008116B /* records.json in Resources */ = {isa = PBXBuildFile; fileRef = DC93F86A2C2C18F10008116B /* records.json */; };
+		DC93F86D2C2C191B0008116B /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC93F86C2C2C191B0008116B /* Record.swift */; };
+		DC93F8712C2C21B10008116B /* RecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC93F8702C2C21B10008116B /* RecordViewModel.swift */; };
+		DC93F8732C2D0F570008116B /* IncomeFormScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC93F8722C2D0F570008116B /* IncomeFormScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		DC93F84B2C2BF6DD0008116B /* upangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = upangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC93F84F2C2BF6DD0008116B /* upangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upangUITests.swift; sourceTree = "<group>"; };
 		DC93F8512C2BF6DD0008116B /* upangUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upangUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC93F8632C2BFCA40008116B /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		DC93F8652C2C173E0008116B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DC93F8672C2C179F0008116B /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		DC93F86A2C2C18F10008116B /* records.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = records.json; sourceTree = "<group>"; };
+		DC93F86C2C2C191B0008116B /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		DC93F8702C2C21B10008116B /* RecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewModel.swift; sourceTree = "<group>"; };
+		DC93F8722C2D0F570008116B /* IncomeFormScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeFormScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +108,13 @@
 		DC93F8332C2BF6D70008116B /* upang */ = {
 			isa = PBXGroup;
 			children = (
+				DC93F8692C2C18890008116B /* Resources */,
+				DC93F8622C2BFC620008116B /* Utils */,
+				DC93F85F2C2BF7A30008116B /* Views */,
+				DC93F85E2C2BF6F50008116B /* Models */,
 				DC93F8342C2BF6D70008116B /* upangApp.swift */,
 				DC93F8362C2BF6D70008116B /* ContentView.swift */,
+				DC93F8702C2C21B10008116B /* RecordViewModel.swift */,
 				DC93F8382C2BF6DC0008116B /* Assets.xcassets */,
 				DC93F83A2C2BF6DC0008116B /* Preview Content */,
 			);
@@ -125,6 +144,40 @@
 				DC93F8512C2BF6DD0008116B /* upangUITestsLaunchTests.swift */,
 			);
 			path = upangUITests;
+			sourceTree = "<group>";
+		};
+		DC93F85E2C2BF6F50008116B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC93F86C2C2C191B0008116B /* Record.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DC93F85F2C2BF7A30008116B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC93F8652C2C173E0008116B /* HeaderView.swift */,
+				DC93F8672C2C179F0008116B /* HomeScreenView.swift */,
+				DC93F8722C2D0F570008116B /* IncomeFormScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DC93F8622C2BFC620008116B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DC93F8632C2BFCA40008116B /* Color.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DC93F8692C2C18890008116B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC93F86A2C2C18F10008116B /* records.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC93F83C2C2BF6DC0008116B /* Preview Assets.xcassets in Resources */,
+				DC93F86B2C2C18F10008116B /* records.json in Resources */,
 				DC93F8392C2BF6DC0008116B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +311,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC93F86D2C2C191B0008116B /* Record.swift in Sources */,
+				DC93F8712C2C21B10008116B /* RecordViewModel.swift in Sources */,
+				DC93F8662C2C173E0008116B /* HeaderView.swift in Sources */,
+				DC93F8642C2BFCA40008116B /* Color.swift in Sources */,
+				DC93F8682C2C179F0008116B /* HomeScreenView.swift in Sources */,
 				DC93F8372C2BF6D70008116B /* ContentView.swift in Sources */,
 				DC93F8352C2BF6D70008116B /* upangApp.swift in Sources */,
+				DC93F8732C2D0F570008116B /* IncomeFormScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
