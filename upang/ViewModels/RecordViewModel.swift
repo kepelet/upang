@@ -57,7 +57,7 @@ extension ContentView {
  */
 
 // Without SwiftData
-
+/*
 public class RecordViewModel: ObservableObject {
     @Published var record: Record
     
@@ -87,3 +87,4 @@ public class RecordViewModel: ObservableObject {
         }
     }
 }
+*/

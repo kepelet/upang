@@ -8,12 +8,43 @@
 import Foundation
 //import SwiftData
 
+/*
 struct Record: Codable {
     let profile: Profile
     let data: [Transaction]
     let total: Balance
 }
+
+struct Transaction: Codable, Identifiable {
+    let id: Int
+    let date: String
+    let description: String
+    let category: String
+    let amount: Int
+}
+
+struct Profile: Codable {
+    let name: String
+    let age: Int
+    let email: String
+}
+
+struct Balance: Codable {
+    let totalIncome: Int
+    let totalExpense: Int
+    let netBalance: Int
+    
+    enum CodingKeys: String, CodingKey {
+        case totalIncome = "total_income"
+        case totalExpense = "total_expense"
+        case netBalance = "net_balance"
+    }
+}
+ */
+
+
 /*
+// SwiftData Model
 @Model
 class Record: Codable {
     enum CodingKeys: CodingKey {
@@ -47,29 +78,3 @@ class Record: Codable {
     }
 }
 */
-
-struct Transaction: Codable, Identifiable {
-    let id: Int
-    let date: String
-    let description: String
-    let category: String
-    let amount: Int
-}
-
-struct Profile: Codable {
-    let name: String
-    let age: Int
-    let email: String
-}
-
-struct Balance: Codable {
-    let totalIncome: Int
-    let totalExpense: Int
-    let netBalance: Int
-    
-    enum CodingKeys: String, CodingKey {
-        case totalIncome = "total_income"
-        case totalExpense = "total_expense"
-        case netBalance = "net_balance"
-    }
-}

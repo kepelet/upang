@@ -20,7 +20,15 @@
 		DC93F86B2C2C18F10008116B /* records.json in Resources */ = {isa = PBXBuildFile; fileRef = DC93F86A2C2C18F10008116B /* records.json */; };
 		DC93F86D2C2C191B0008116B /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC93F86C2C2C191B0008116B /* Record.swift */; };
 		DC93F8712C2C21B10008116B /* RecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC93F8702C2C21B10008116B /* RecordViewModel.swift */; };
-		DC93F8732C2D0F570008116B /* IncomeFormScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC93F8722C2D0F570008116B /* IncomeFormScreenView.swift */; };
+		DC93F8732C2D0F570008116B /* TransactionScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC93F8722C2D0F570008116B /* TransactionScreenView.swift */; };
+		DCB953D72C2D67EA00B8D460 /* Record.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCB953D52C2D67E900B8D460 /* Record.xcdatamodeld */; };
+		DCB953D92C2D6C2000B8D460 /* RecordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB953D82C2D6C2000B8D460 /* RecordController.swift */; };
+		DCB953DB2C2D72B900B8D460 /* TransactionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB953DA2C2D72B900B8D460 /* TransactionController.swift */; };
+		DCB953DD2C2EA4DB00B8D460 /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB953DC2C2EA4DB00B8D460 /* TransactionViewModel.swift */; };
+		DCB953E12C2EB7F200B8D460 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB953E02C2EB7F200B8D460 /* ProfileController.swift */; };
+		DCB953E32C2EB9B900B8D460 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB953E22C2EB9B900B8D460 /* ProfileViewModel.swift */; };
+		DCB953E52C2EBA4F00B8D460 /* BalanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB953E42C2EBA4F00B8D460 /* BalanceController.swift */; };
+		DCB953E72C2EBA8100B8D460 /* BalanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB953E62C2EBA8100B8D460 /* BalanceViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +65,15 @@
 		DC93F86A2C2C18F10008116B /* records.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = records.json; sourceTree = "<group>"; };
 		DC93F86C2C2C191B0008116B /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		DC93F8702C2C21B10008116B /* RecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewModel.swift; sourceTree = "<group>"; };
-		DC93F8722C2D0F570008116B /* IncomeFormScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeFormScreenView.swift; sourceTree = "<group>"; };
+		DC93F8722C2D0F570008116B /* TransactionScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionScreenView.swift; sourceTree = "<group>"; };
+		DCB953D62C2D67E900B8D460 /* Record.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Record.xcdatamodel; sourceTree = "<group>"; };
+		DCB953D82C2D6C2000B8D460 /* RecordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordController.swift; sourceTree = "<group>"; };
+		DCB953DA2C2D72B900B8D460 /* TransactionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionController.swift; sourceTree = "<group>"; };
+		DCB953DC2C2EA4DB00B8D460 /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		DCB953E02C2EB7F200B8D460 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		DCB953E22C2EB9B900B8D460 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		DCB953E42C2EBA4F00B8D460 /* BalanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceController.swift; sourceTree = "<group>"; };
+		DCB953E62C2EBA8100B8D460 /* BalanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +130,10 @@
 				DC93F85E2C2BF6F50008116B /* Models */,
 				DC93F8342C2BF6D70008116B /* upangApp.swift */,
 				DC93F8362C2BF6D70008116B /* ContentView.swift */,
-				DC93F8702C2C21B10008116B /* RecordViewModel.swift */,
+				DCB953DF2C2EB7C800B8D460 /* ViewModels */,
 				DC93F8382C2BF6DC0008116B /* Assets.xcassets */,
 				DC93F83A2C2BF6DC0008116B /* Preview Content */,
+				DCB953DE2C2EB79700B8D460 /* Controllers */,
 			);
 			path = upang;
 			sourceTree = "<group>";
@@ -159,7 +176,7 @@
 			children = (
 				DC93F8652C2C173E0008116B /* HeaderView.swift */,
 				DC93F8672C2C179F0008116B /* HomeScreenView.swift */,
-				DC93F8722C2D0F570008116B /* IncomeFormScreenView.swift */,
+				DC93F8722C2D0F570008116B /* TransactionScreenView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -176,8 +193,31 @@
 			isa = PBXGroup;
 			children = (
 				DC93F86A2C2C18F10008116B /* records.json */,
+				DCB953D52C2D67E900B8D460 /* Record.xcdatamodeld */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		DCB953DE2C2EB79700B8D460 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DCB953D82C2D6C2000B8D460 /* RecordController.swift */,
+				DCB953DA2C2D72B900B8D460 /* TransactionController.swift */,
+				DCB953E02C2EB7F200B8D460 /* ProfileController.swift */,
+				DCB953E42C2EBA4F00B8D460 /* BalanceController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DCB953DF2C2EB7C800B8D460 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DC93F8702C2C21B10008116B /* RecordViewModel.swift */,
+				DCB953DC2C2EA4DB00B8D460 /* TransactionViewModel.swift */,
+				DCB953E62C2EBA8100B8D460 /* BalanceViewModel.swift */,
+				DCB953E22C2EB9B900B8D460 /* ProfileViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,12 +353,20 @@
 			files = (
 				DC93F86D2C2C191B0008116B /* Record.swift in Sources */,
 				DC93F8712C2C21B10008116B /* RecordViewModel.swift in Sources */,
+				DCB953E52C2EBA4F00B8D460 /* BalanceController.swift in Sources */,
+				DCB953E72C2EBA8100B8D460 /* BalanceViewModel.swift in Sources */,
 				DC93F8662C2C173E0008116B /* HeaderView.swift in Sources */,
+				DCB953D72C2D67EA00B8D460 /* Record.xcdatamodeld in Sources */,
 				DC93F8642C2BFCA40008116B /* Color.swift in Sources */,
+				DCB953E12C2EB7F200B8D460 /* ProfileController.swift in Sources */,
+				DCB953E32C2EB9B900B8D460 /* ProfileViewModel.swift in Sources */,
 				DC93F8682C2C179F0008116B /* HomeScreenView.swift in Sources */,
 				DC93F8372C2BF6D70008116B /* ContentView.swift in Sources */,
+				DCB953DB2C2D72B900B8D460 /* TransactionController.swift in Sources */,
 				DC93F8352C2BF6D70008116B /* upangApp.swift in Sources */,
-				DC93F8732C2D0F570008116B /* IncomeFormScreenView.swift in Sources */,
+				DC93F8732C2D0F570008116B /* TransactionScreenView.swift in Sources */,
+				DCB953D92C2D6C2000B8D460 /* RecordController.swift in Sources */,
+				DCB953DD2C2EA4DB00B8D460 /* TransactionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,6 +696,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCB953D52C2D67E900B8D460 /* Record.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCB953D62C2D67E900B8D460 /* Record.xcdatamodel */,
+			);
+			currentVersion = DCB953D62C2D67E900B8D460 /* Record.xcdatamodel */;
+			name = Record.xcdatamodeld;
+			path = /Users/alvinmiftah/developments/upang/upang/Resources/Record.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DC93F8292C2BF6D70008116B /* Project object */;
 }
